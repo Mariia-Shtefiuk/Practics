@@ -115,16 +115,55 @@
 // Окрім цього, підрахуйте суму всіх парних чисел в цьому циклі
 // і поверніть її з функції.
 
-function getNumbers(min, max) {
-  let sum = 0;
+// function getNumbers(min, max) {
+//   let sum = 0;
 
-  for (let i = max; i >= min; i--) {
-    console.log(i);
-    if (i % 2 === 0) {
-      sum += i;
-    }
-  }
-  return sum;
-}
+//   for (let i = max; i >= min; i--) {
+//     console.log(i);
+//     if (i % 2 === 0) {
+//       sum += i;
+//     }
+//   }
+//   return sum;
+// }
 
-console.log(getNumbers(1, 5));
+// console.log(getNumbers(1, 5));
+
+// Напишіть функцію fizzBuzz(num), яка приймає число і перевіряє кожне число від 1 до num:
+// Якщо число ділитися  без остачі на 3 - виводить в консоль 'fizz',
+// якщо ділиться  без остачі на 5 - виводить в консоль 'buzz',
+// якщо ділиться  без остачі і на 3, і на 5 - виводить в консоль 'fizzbuzz'.
+
+// function fizzBuzz(num) {
+//   for (let i = 1; i <= num; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//       console.log("fizzbuzz");
+//     } else if (i % 3 === 0) {
+//       console.log("fizz");
+//     } else if (i % 5 === 0) {
+//       console.log("buzz");
+//     } else {
+//       console.log(i);
+//     }
+//   }
+// }
+
+// fizzBuzz(10);
+
+// Напишіть функцію isAdult(age), яка  приймає число - вік користувача і повертає true,
+// якщо параметр age більше чи дорівнює 18.
+// В іншому випадку вона запитує підтвердження через confirm
+// і повертає його результат (true/false).
+
+______________________________________________________________;
+// function isAdult(age) {
+//   if (age >= 18) {
+//     return true;
+//   } else if (age.confirm("Вам є 18 років?")) { // confirm повертає true/false - потрібен запит на підтвердження
+//     true;
+//   } else {
+//     false;
+//   }
+// }
+
+// console.log(isAdult(16));
