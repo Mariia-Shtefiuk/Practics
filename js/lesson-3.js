@@ -615,29 +615,29 @@
 //  - department - відділ, в якому працює співробітник.
 //  Крім того, клас `Employee` має мати метод `getEmployeeDetails()`,
 // який повертає об'єкт з зарплатою співробітника та відділом, в якому він працює.
-class Person {
-  constructor(name, age, gender, email) {
-    this.name = name;
-    this.age = age;
-    this.gender = gender;
-    this.email = email;
-  }
-}
+// class Person {
+//   constructor(name, age, gender, email) {
+//     this.name = name;
+//     this.age = age;
+//     this.gender = gender;
+//     this.email = email;
+//   }
+// }
 
-class Employee extends Person {
-  constructor(salary, department) {
-    this.salary = salary;
-    this.department = department;
-  }
-  getEmployeeDetails() {
-    return {
-      salary: this.salary,
-      department: this.department,
-    };
-  }
-}
+// class Employee extends Person {
+//   constructor(salary, department) {
+//     this.salary = salary;
+//     this.department = department;
+//   }
+//   getEmployeeDetails() {
+//     return {
+//       salary: this.salary,
+//       department: this.department,
+//     };
+//   }
+// }
 
-const person = new Person("John", 30);
-const employee = new Employee(50000, "IT");
-console.log(person);
-console.log(employee.getEmployeeDetails());
+// const person = new Person("John", 30);
+// const employee = new Employee(50000, "IT");
+// console.log(person);
+// console.log(employee.getEmployeeDetails());
